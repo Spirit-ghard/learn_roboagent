@@ -1,0 +1,1 @@
+/root/gpufree-data/RoboTwin/docs/brain_demo/启动说明.txt

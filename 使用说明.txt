@@ -1,0 +1,11 @@
+RoboBrain 统一入口
+
+01_视觉示例：7 个独立示例、全部运行入口、示例代码、结果及说明。
+02_仿真抓取：RoboBrain 指挥 RoboTwin 完成抓取、入篮与抬篮的启动入口、文档和录像报告。
+
+这里的入口是快捷链接，原文件已归入对应项目：
+视觉示例：/root/gpufree-data/RoboBrain2.5/examples/
+仿真 Demo：/root/gpufree-data/RoboTwin/
+
+旧桌面 1.md 已归档：/root/gpufree-data/RoboBrain2.5/examples/archive/桌面旧笔记_1.md
+该文件保留历史内容，其中 src 路径已过时；运行请使用当前启动说明。
