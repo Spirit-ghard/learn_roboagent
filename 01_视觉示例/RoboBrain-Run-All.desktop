@@ -1,1 +1,7 @@
-/root/gpufree-data/RoboBrain2.5/examples/launchers/RoboBrain-Run-All.desktop
+[Desktop Entry]
+Name=RoboBrain - Run All Seven Examples
+Comment=Run all RoboBrain examples sequentially
+Exec=/root/gpufree-data/RoboBrain2.5/tools/run_all_brain_examples.sh
+Terminal=true
+Type=Application
+Categories=Development;

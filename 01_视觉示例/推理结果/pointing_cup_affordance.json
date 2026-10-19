@@ -1,0 +1,7 @@
+{
+  "name": "pointing_cup_affordance",
+  "task": "pointing",
+  "prompt": "the affordance area for holding the cup",
+  "image": "/root/gpufree-data/src/RoboBrain2.5/assets/demo/affordance.jpg",
+  "answer": "[(910, 597)]"
+}

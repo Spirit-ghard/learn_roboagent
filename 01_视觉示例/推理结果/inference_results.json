@@ -1,0 +1,44 @@
+{
+  "general_vqa": {
+    "task": "general",
+    "prompt": "What is shown in this image?",
+    "image": "/root/gpufree-data/models/coco.jpg",
+    "answer": "The image shows two cats lying on a pink blanket or surface. One cat is lying on its side, while the other is lying on its back. Both cats appear relaxed and comfortable. There are two remote controls placed near the cats, suggesting they might be on a couch or similar furniture. The setting looks cozy and casual."
+  },
+  "grounding_red_hat_person": {
+    "task": "grounding",
+    "prompt": "the person wearing a red hat",
+    "image": "/root/gpufree-data/src/RoboBrain2.5/assets/demo/grounding.jpg",
+    "answer": "The person wearing a red hat is the child in the image. The bounding box for this person can be described as follows:\n\n- **Top-left corner**: Approximately at the top of the child's head.\n- **Bottom-right corner**: Approximately at the child's feet.\n\nIn a more precise format (assuming the image dimensions are normalized to 1x1):\n\n```json\n{\n  \"bbox_2d\": [0, 295, 0.5, 0.95]\n}\n```\n\nThis bounding box encompasses the child wearing the red hat."
+  },
+  "pointing_cup_affordance": {
+    "task": "pointing",
+    "prompt": "the affordance area for holding the cup",
+    "image": "/root/gpufree-data/src/RoboBrain2.5/assets/demo/affordance.jpg",
+    "answer": "[(910, 597)]"
+  },
+  "trajectory_banana": {
+    "task": "trajectory",
+    "prompt": "reach for the banana on the plate",
+    "image": "/root/gpufree-data/src/RoboBrain2.5/assets/demo/trajectory.jpg",
+    "answer": "[(313, 483, 0.600), (430, 341, 0.636), (520, 325, 0.756)]"
+  },
+  "pointing_between_mugs": {
+    "task": "pointing",
+    "prompt": "Identify spot within the vacant space that's between the two mugs",
+    "image": "/root/gpufree-data/src/RoboBrain2.5/assets/demo/pointing.jpg",
+    "answer": "[(593, 737)]"
+  },
+  "navigation_to_toilet": {
+    "task": "pointing",
+    "prompt": "Identify spot within toilet in the house",
+    "image": "/root/gpufree-data/src/RoboBrain2.5/assets/demo/navigation.jpg",
+    "answer": "[(416, 368)]"
+  },
+  "navigation_to_sofa": {
+    "task": "pointing",
+    "prompt": "Identify spot within the sofa in the house",
+    "image": "/root/gpufree-data/src/RoboBrain2.5/assets/demo/navigation.jpg",
+    "answer": "[(480, 935)]"
+  }
+}

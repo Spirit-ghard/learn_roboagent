@@ -1,0 +1,7 @@
+{
+  "name": "navigation_to_toilet",
+  "task": "pointing",
+  "prompt": "Identify spot within toilet in the house",
+  "image": "/root/gpufree-data/src/RoboBrain2.5/assets/demo/navigation.jpg",
+  "answer": "[(416, 368)]"
+}

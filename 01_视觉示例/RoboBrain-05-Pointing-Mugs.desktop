@@ -1,1 +1,7 @@
-/root/gpufree-data/RoboBrain2.5/examples/launchers/RoboBrain-05-Pointing-Mugs.desktop
+[Desktop Entry]
+Name=RoboBrain 05 - Navigation
+Comment=Run the RoboBrain toilet and sofa navigation examples
+Exec=/root/gpufree-data/RoboBrain2.5/tools/run_brain_example.sh examples/05_navigation_toilet.py
+Terminal=true
+Type=Application
+Categories=Development;

@@ -1,0 +1,35 @@
+"""Official RoboBrain2.5 Quickstart: Navigation.
+
+Expected output: one dictionary containing a point inside the toilet, followed
+by one containing a point inside the sofa. Previously observed points are
+``[(416, 368)]`` and ``[(480, 935)]``; outputs vary by model sampling.
+``./result/navigation.jpg`` is written.
+"""
+
+import os
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+os.chdir(ROOT)
+
+from inference import UnifiedInference
+
+model = UnifiedInference("/root/gpufree-data/models/RoboBrain2.5-4B", device_map="auto")
+
+# Example 1:
+prompt_1 = "Identify spot within toilet in the house"
+image = "./assets/demo/navigation.jpg"
+
+# Visualization results will be saved to ./result, if `plot=True`.
+pred = model.inference(prompt_1, image, task="pointing", plot=True, do_sample=True)
+print(f"Prediction:\n{pred}")
+
+# Example 2:
+prompt_2 = "Identify spot within the sofa in the house"
+image = "./assets/demo/navigation.jpg"
+
+# Visualization results will be saved to ./result, if `plot=True`.
+pred = model.inference(prompt_2, image, task="pointing", plot=True, do_sample=True)
+print(f"Prediction:\n{pred}")

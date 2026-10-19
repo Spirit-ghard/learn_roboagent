@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=RoboBrain 01 - General VQA
+Comment=Run the RoboBrain general visual question answering example
+Exec=/root/gpufree-data/RoboBrain2.5/tools/run_brain_example.sh examples/01_general_vqa.py
+Terminal=true
+Type=Application
+Categories=Development;

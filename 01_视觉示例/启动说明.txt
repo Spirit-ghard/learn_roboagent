@@ -1,1 +1,25 @@
-/root/gpufree-data/RoboBrain2.5/examples/启动说明.txt
+RoboBrain2.5 视觉示例启动说明
+
+打开桌面 RoboBrain → 01_视觉示例，双击对应图标。每次只运行所选示例，自动使用 brain_env。
+
+01 General VQA：图片问答
+02 Grounding：定位红帽子人物
+03 Affordance：杯子抓取区域
+04 Referring：两只杯子间的落点
+05 Navigation：卫生间和沙发导航落点（官方同一段示例）
+06 3D Trajectory：香蕉抓取轨迹预测
+07 Temporal Value Estimation：官方 Robo-Dopamine 示例（当前跳过）
+Run All：依次运行 6 个本地 4B 示例；第 7 项不自动运行。
+
+项目：/root/gpufree-data/RoboBrain2.5
+代码：/root/gpufree-data/RoboBrain2.5/examples
+Python：/opt/conda/envs/brain_env/bin/python
+实际运行模型：/root/gpufree-data/models/RoboBrain2.5-4B
+官方 8B：当前不下载、不运行
+结果：/root/gpufree-data/RoboBrain2.5/results
+标注图片：/root/gpufree-data/RoboBrain2.5/result
+入口文件：/root/gpufree-data/RoboBrain2.5/examples/launchers
+
+终端单独运行：
+cd /root/gpufree-data/RoboBrain2.5
+/opt/conda/envs/brain_env/bin/python -u examples/01_general_vqa.py

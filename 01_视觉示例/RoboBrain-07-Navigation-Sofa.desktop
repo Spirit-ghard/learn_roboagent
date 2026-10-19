@@ -1,1 +1,7 @@
-/root/gpufree-data/RoboBrain2.5/examples/launchers/RoboBrain-07-Navigation-Sofa.desktop
+[Desktop Entry]
+Name=RoboBrain 07 - Temporal Value
+Comment=Run the official Robo-Dopamine temporal value example
+Exec=/root/gpufree-data/RoboBrain2.5/tools/run_brain_example.sh examples/07_temporal_value_estimation.py
+Terminal=true
+Type=Application
+Categories=Development;

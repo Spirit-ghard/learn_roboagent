@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Runtime outputs can be regenerated; the checked-in demo artifacts live in
+# the result and 推理结果 directories.
+data/minimal_pipeline/runs/

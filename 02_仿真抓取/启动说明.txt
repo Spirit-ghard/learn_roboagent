@@ -1,1 +1,24 @@
-/root/gpufree-data/RoboTwin/docs/brain_demo/启动说明.txt
+RoboBrain × RoboTwin 完整抓取 Demo
+
+打开桌面 RoboBrain → 02_仿真抓取，双击“RoboBrain 仿真抓取 Demo”。它自动使用 twin_env / brain_env，
+执行抓玩具车 → 入篮 → 同臂抓篮子 → 抬升 → 官方成功检查，
+并在完成后尝试打开录像。第一次如桌面提示未信任，选择“允许启动”。
+
+终端启动：
+bash /root/gpufree-data/RoboTwin/scripts/run_brain_twin_demo.sh
+
+当前容器有桌面显示时，该命令会打开实时 SAPIEN Viewer；之前的默认设置是 headless，现已改为自动检测桌面。
+无桌面服务器使用：
+bash /root/gpufree-data/RoboTwin/scripts/run_brain_twin_demo.sh --headless
+任务完成后保持窗口使用：
+bash /root/gpufree-data/RoboTwin/scripts/run_brain_twin_demo.sh --keep-viewer
+
+最近运行结果：
+/root/gpufree-data/RoboTwin/data/minimal_pipeline/latest/
+其中 demo.mp4 是录像，report.json 是真实任务报告，run.log 是完整日志。
+
+已通过验证的录像：
+/root/gpufree-data/RoboTwin/data/minimal_pipeline/runs/20261016_014832_17918/demo.mp4
+
+文档：/root/gpufree-data/RoboTwin/DEMO_ROBOBRAIN_GRASP.md
+范围：固定 seed=0 最小场景；RoboBrain 选高层技能，MPlib 执行基于仿真真值的动作。
