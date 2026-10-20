@@ -2,6 +2,6 @@
   "name": "pointing_between_mugs",
   "task": "pointing",
   "prompt": "Identify spot within the vacant space that's between the two mugs",
-  "image": "/root/gpufree-data/src/RoboBrain2.5/assets/demo/pointing.jpg",
+  "image": "/root/Desktop/RoboBrain/01_视觉示例/原始图片/pointing.jpg",
   "answer": "[(593, 737)]"
 }

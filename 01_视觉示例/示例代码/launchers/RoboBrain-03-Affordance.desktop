@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=RoboBrain 03 - Affordance
-Comment=Run the RoboBrain affordance pointing example
-Exec=/root/gpufree-data/RoboBrain2.5/tools/run_brain_example.sh examples/03_pointing_affordance.py
-Terminal=true
-Type=Application
-Categories=Development;

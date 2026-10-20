@@ -2,6 +2,6 @@
   "name": "trajectory_banana",
   "task": "trajectory",
   "prompt": "reach for the banana on the plate",
-  "image": "/root/gpufree-data/RoboBrain2.5/assets/demo/trajectory.jpg",
+  "image": "/root/Desktop/RoboBrain/01_视觉示例/原始图片/trajectory.jpg",
   "answer": "[(313, 483, 0.600), (430, 341, 0.636), (520, 325, 0.756)]"
 }

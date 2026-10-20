@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=RoboBrain 仿真抓取 Demo
-Comment=RoboBrain drives a simulated robot to pick, place and lift the basket
-Exec=/root/gpufree-data/RoboTwin/scripts/run_brain_twin_demo.sh --desktop
-Path=/root/gpufree-data/RoboTwin
-Terminal=true
-Type=Application
-Icon=applications-science
-Categories=Development;

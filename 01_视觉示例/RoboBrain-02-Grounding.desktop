@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=RoboBrain 02 - Grounding
-Comment=Run the RoboBrain grounding example
-Exec=/root/gpufree-data/RoboBrain2.5/tools/run_brain_example.sh examples/02_grounding_red_hat.py
-Terminal=true
-Type=Application
-Categories=Development;

@@ -2,6 +2,6 @@
   "name": "general_vqa",
   "task": "general",
   "prompt": "What is shown in this image?",
-  "image": "/root/gpufree-data/models/coco.jpg",
+  "image": "/root/Desktop/RoboBrain/01_视觉示例/原始图片/coco.jpg",
   "answer": "The image shows two cats lying on a pink blanket or surface. One cat is lying on its side, while the other is lying on its back. Both cats appear relaxed and comfortable. There are two remote controls placed near the cats, suggesting they might be on a couch or similar furniture. The setting looks cozy and casual."
 }

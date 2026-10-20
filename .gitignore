@@ -5,3 +5,8 @@ __pycache__/
 # Runtime outputs can be regenerated; the checked-in demo artifacts live in
 # the result and 推理结果 directories.
 data/minimal_pipeline/runs/
+
+# Per-run state created by the RoboTwin launcher.
+02_仿真抓取/brain_twin_demo.lock
+02_仿真抓取/最近运行结果/latest
+02_仿真抓取/最近运行结果/runs/

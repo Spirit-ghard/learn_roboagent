@@ -13,11 +13,11 @@ and do not contact Hugging Face. Example 07 is the separate Robo-Dopamine API.
 6. `06_trajectory_banana.py`: 3D Trajectory Prediction
 7. `07_temporal_value_estimation.py`: Temporal Value Estimation through Robo-Dopamine
 
-Run one directly from the repository:
+Run one directly from the example directory:
 
 ```bash
-cd /root/gpufree-data/RoboBrain2.5
-/opt/conda/envs/brain_env/bin/python -u examples/01_general_vqa.py
+cd /root/Desktop/RoboBrain/01_视觉示例/示例代码
+/opt/conda/envs/brain_env/bin/python -u 01_general_vqa.py
 ```
 
 Examples 01-06 use `/root/gpufree-data/models/RoboBrain2.5-4B`. The official
@@ -27,10 +27,11 @@ pipeline and is kept for reference only; it is excluded from
 `run_all_brain_examples.sh` because that repository and its demo videos are
 not installed.
 
-General VQA uses the cached copy of the official COCO image at
-`/root/gpufree-data/models/coco.jpg`; the upstream URL is kept in the file as
-a comment because this container has no outbound network.
+Original input images are stored in `../原始图片/`. Annotated output
+images are stored in `../标注图片/`; the output contains the predicted
+points, bounding boxes, or trajectory. General VQA uses the project copy of
+the official COCO image at `assets/original/coco.jpg`; the upstream URL is kept in the file as a comment
+because this container has no outbound network.
 
 The expected output shape for every file is documented at the top of that
-file. Visual tasks save annotations under `result/` when `plot=True`.
-Desktop shortcuts are grouped in `/root/Desktop/RoboBrain/01_视觉示例/`.
+file. Visual tasks save annotations under `../标注图片/` when `plot=True`.

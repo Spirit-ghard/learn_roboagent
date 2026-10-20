@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=RoboBrain 06 - Trajectory
-Comment=Run the RoboBrain 3D trajectory example
-Exec=/root/gpufree-data/RoboBrain2.5/tools/run_brain_example.sh examples/06_trajectory_banana.py
-Terminal=true
-Type=Application
-Categories=Development;

@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=RoboBrain 04 - Referring
-Comment=Run the RoboBrain referring prediction example
-Exec=/root/gpufree-data/RoboBrain2.5/tools/run_brain_example.sh examples/04_pointing_between_mugs.py
-Terminal=true
-Type=Application
-Categories=Development;

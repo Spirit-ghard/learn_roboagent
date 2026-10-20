@@ -5,16 +5,17 @@ RoboBrain × RoboTwin 完整抓取 Demo
 并在完成后尝试打开录像。第一次如桌面提示未信任，选择“允许启动”。
 
 终端启动：
-bash /root/gpufree-data/RoboTwin/scripts/run_brain_twin_demo.sh
+bash /root/Desktop/RoboBrain/02_仿真抓取/run_brain_twin_demo.sh
 
 当前容器有桌面显示时，该命令会打开实时 SAPIEN Viewer；之前的默认设置是 headless，现已改为自动检测桌面。
+Demo 主框架位于 `/root/Desktop/RoboBrain/02_仿真抓取/demo/`；RoboTwin 仅作为被调用的仿真环境。Viewer 目标刷新约 25 FPS，规划和模型加载在后台等待时仍可拖动窗口。
 无桌面服务器使用：
-bash /root/gpufree-data/RoboTwin/scripts/run_brain_twin_demo.sh --headless
+bash /root/Desktop/RoboBrain/02_仿真抓取/run_brain_twin_demo.sh --headless
 任务完成后保持窗口使用：
-bash /root/gpufree-data/RoboTwin/scripts/run_brain_twin_demo.sh --keep-viewer
+bash /root/Desktop/RoboBrain/02_仿真抓取/run_brain_twin_demo.sh --keep-viewer
 
 最近运行结果：
-/root/gpufree-data/RoboTwin/data/minimal_pipeline/latest/
+/root/Desktop/RoboBrain/02_仿真抓取/最近运行结果/latest/
 其中 demo.mp4 是录像，report.json 是真实任务报告，run.log 是完整日志。
 
 已通过验证的录像：
